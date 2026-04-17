@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Eu Te Amo</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100%;height:100%;overflow:hidden;background:#1a000e}
+canvas{position:absolute;top:0;left:0;width:100%;height:100%}
+#ui{position:absolute;left:0;right:0;text-align:center;pointer-events:none;z-index:10}
+#typed{font-family:Georgia,serif;font-style:italic;font-size:clamp(1rem,3.2vmin,1.8rem);color:#ffb3c6;text-shadow:0 0 16px rgba(255,60,120,.9),0 0 36px rgba(180,0,60,.5)}
+.cur{display:inline-block;width:2px;height:.85em;background:#ffb3c6;vertical-align:middle;margin-left:2px;animation:bl .8s step-end infinite}
+@keyframes bl{0%,100%{opacity:1}50%{opacity:0}}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="ui"><span id="typed"><span class="cur"></span></span></div>
+<script>
+const cv=document.getElementById('c');
+const ctx=cv.getContext('2d');
+const ui=document.getElementById('ui');
+
+// coração centrado em H*0.62, raio min(W,H)*0.30
+// topo do coração = H*0.62 - min(W,H)*0.30
+// texto fica 36px acima desse topo
+function positionUI(){
+  const R=Math.min(cv.width,cv.height)*0.30;
+  const heartTop=cv.height*0.62-R;
+  ui.style.top=(heartTop-36)+'px';
+}
+
+function resize(){
+  cv.width=window.innerWidth;
+  cv.height=window.innerHeight;
+  positionUI();
+}
+resize();
+window.addEventListener('resize',()=>{resize();initScene();});
+window.addEventListener('orientationchange',()=>{setTimeout(()=>{resize();initScene();},150);});
+
+const GLYPHS={
+  'A':["01110","10001","10001","11111","10001","10001","10001"],
+  'B':["11110","10001","10001","11110","10001","10001","11110"],
+  'C':["01111","10000","10000","10000","10000","10000","01111"],
+  'D':["11110","10001","10001","10001","10001","10001","11110"],
+  'E':["11111","10000","10000","11110","10000","10000","11111"],
+  'F':["11111","10000","10000","11110","10000","10000","10000"],
+  'G':["01111","10000","10000","10111","10001","10001","01111"],
+  'H':["10001","10001","10001","11111","10001","10001","10001"],
+  'I':["11111","00100","00100","00100","00100","00100","11111"],
+  'J':["00111","00010","00010","00010","10010","10010","01100"],
+  'K':["10001","10010","10100","11000","10100","10010","10001"],
+  'L':["10000","10000","10000","10000","10000","10000","11111"],
+  'M':["10001","11011","10101","10101","10001","10001","10001"],
+  'N':["10001","11001","11001","10101","10011","10011","10001"],
+  'O':["01110","10001","10001","10001","10001","10001","01110"],
+  'P':["11110","10001","10001","11110","10000","10000","10000"],
+  'Q':["01110","10001","10001","10001","10101","10010","01101"],
+  'R':["11110","10001","10001","11110","10100","10010","10001"],
+  'S':["01111","10000","10000","01110","00001","00001","11110"],
+  'T':["11111","00100","00100","00100","00100","00100","00100"],
+  'U':["10001","10001","10001","10001","10001","10001","01110"],
+  'V':["10001","10001","10001","10001","10001","01010","00100"],
+  'W':["10001","10001","10001","10101","10101","11011","10001"],
+  'X':["10001","10001","01010","00100","01010","10001","10001"],
+  'Y':["10001","10001","01010","00100","00100","00100","00100"],
+  'Z':["11111","00001","00010","00100","01000","10000","11111"],
+  ' ':["00000","00000","00000","00000","00000","00000","00000"],
+};
+
+function stringPixels(str){
+  const rows=7,gap=1;
+  const chars=str.toUpperCase().split('').map(c=>GLYPHS[c]||GLYPHS[' ']);
+  const pts=[];let col=0;
+  for(const g of chars){
+    for(let r=0;r<rows;r++){
+      const row=g[r]||'00000';
+      for(let b=0;b<row.length;b++) if(row[b]==='1') pts.push({row:r,col:col+b});
+    }
+    col+=5+gap;
+  }
+  return{pts,totalCols:col-gap,totalRows:rows};
+}
+
+function textTargets(str){
+  const{pts,totalCols,totalRows}=stringPixels(str);
+  if(!pts.length) return[];
+  const W=cv.width,H=cv.height;
+  const cellW=Math.min(W*.85/totalCols,H*.18/totalRows);
+  const ox=(W-totalCols*cellW)/2;
+  const oy=H*.62-totalRows*cellW/2;
+  return pts.map(p=>({x:ox+p.col*cellW+cellW/2,y:oy+p.row*cellW+cellW/2}));
+}
+
+function heartTargets(n){
+  const W=cv.width,H=cv.height;
+  const R=Math.min(W,H)*.3;
+  const cx=W/2,cy=H*.62;
+  const pts=[];
+  for(let i=0;i<n;i++){
+    const t=(i/n)*Math.PI*2-Math.PI/2;
+    const x=16*Math.pow(Math.sin(t),3);
+    const y=-(13*Math.cos(t)-5*Math.cos(2*t)-2*Math.cos(3*t)-Math.cos(4*t));
+    pts.push({x:cx+x*(R/16),y:cy+y*(R/16)});
+  }
+  return shuffle(pts);
+}
+
+function shuffle(a){
+  for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}
+  return a;
+}
+
+const stars=Array.from({length:80},()=>({x:Math.random(),y:Math.random(),r:.3+Math.random()*1.2,ph:Math.random()*Math.PI*2,sp:.6+Math.random()*1.8}));
+
+function drawBg(t){
+  const W=cv.width,H=cv.height;
+  const g=ctx.createRadialGradient(W*.3,H*.35,0,W*.5,H*.5,W*.75);
+  g.addColorStop(0,'#7b0035');g.addColorStop(.45,'#3d0020');g.addColorStop(1,'#1a000e');
+  ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
+  stars.forEach(s=>{
+    const a=.08+.5*(Math.sin(s.ph+t*s.sp)*.5+.5);
+    ctx.beginPath();ctx.arc(s.x*W,s.y*H,s.r,0,Math.PI*2);
+    ctx.fillStyle=`rgba(255,150,185,${a})`;ctx.fill();
+  });
+}
+
+const N=200;
+class P{
+  constructor(){this.x=cv.width/2+(Math.random()-.5)*20;this.y=cv.height/2+(Math.random()-.5)*20;this.tx=this.x;this.ty=this.y;this.a=0;}
+  setTarget(tx,ty){this.tx=tx;this.ty=ty;}
+  respawn(){this.x=cv.width/2+(Math.random()-.5)*24;this.y=cv.height/2+(Math.random()-.5)*24;this.a=0;}
+  scatter(){const ang=Math.random()*Math.PI*2;const r=Math.min(cv.width,cv.height)*(.5+Math.random()*.5);this.tx=cv.width/2+Math.cos(ang)*r;this.ty=cv.height/2+Math.sin(ang)*r;}
+  update(e){this.x+=(this.tx-this.x)*e;this.y+=(this.ty-this.y)*e;this.a+=(1-this.a)*.07;}
+  draw(sz){if(this.a<.02)return;ctx.globalAlpha=Math.min(1,this.a);ctx.fillText('❤️',this.x-sz*.5,this.y+sz*.5);}
+}
+
+let parts=[];
+function initParts(){parts=Array.from({length:N},()=>new P());}
+function settled(){let s=0;for(const p of parts)s+=Math.abs(p.x-p.tx)+Math.abs(p.y-p.ty);return s<N*3;}
+
+const phrases=['EU TE AMO MUITO','MINHA BIAZINHA','MINHA PRINCESA','MINHA GATINHA','MINHA GAROTINHA','MINHA NENEMZINHA','MINHA MULHER DA MINHA VIDA','MEU BB','MEU AMOR','PARA SEMPRE'];
+let pIdx=0,state='',stateT=0,ease=.042;
+function dotSz(){return Math.max(10,Math.min(cv.width,cv.height)*.028);}
+function assignTargets(tgts){parts.forEach((p,i)=>p.setTarget(tgts[i%tgts.length].x,tgts[i%tgts.length].y));}
+
+function go(s,now){
+  state=s;stateT=now;
+  if(s==='form_heart'){parts.forEach(p=>p.respawn());assignTargets(heartTargets(N));ease=.042;}
+  if(s==='form_text'){parts.forEach(p=>p.respawn());const tgts=textTargets(phrases[pIdx]);pIdx=(pIdx+1)%phrases.length;assignTargets(tgts.length?tgts:heartTargets(N));ease=.038;}
+  if(s==='scatter'){parts.forEach(p=>p.scatter());ease=.08;}
+}
+
+function initScene(){initParts();go('form_heart',performance.now());}
+initScene();
+
+let nextState='form_text',holdTimer=0;
+function loop(now){
+  requestAnimationFrame(loop);
+  drawBg(now/1000);
+  const sz=dotSz();
+  ctx.font=`${sz}px serif`;
+  if(state==='form_heart'||state==='form_text'){
+    if(settled()||(now-stateT>3500)){
+      if(!holdTimer) holdTimer=now;
+      if(now-holdTimer>2000){holdTimer=0;go('scatter',now);nextState=state==='form_heart'?'form_text':'form_heart';}
+    }
+  }
+  if(state==='scatter'&&now-stateT>700) go(nextState,now);
+  parts.forEach(p=>{p.update(ease);p.draw(sz);});
+  ctx.globalAlpha=1;
+}
+requestAnimationFrame(loop);
+
+const typedEl=document.getElementById('typed');
+const tphrases=[
+  'EU TE AMO MUITO MINHA BIAZINHA 💖🤍','EU TE AMO MUITO MINHA PRINCESINHA 👑💖',
+  'EU TE AMO MUITO MINHA GATINHA 🐱💖','EU TE AMO MUITO MINHA GAROTINHA 🥺💖',
+  'EU TE AMO MUITO MINHA BBZINHA 👶💖','EU TE AMO MUITO MINHA NENEMZINHA 🤗💖',
+  'EU TE AMO MUITO MULHER DA MINHA VIDA 👩💖','EU TE AMO MUITO MINHA GOSTOSONA 🤤💖',
+  'VC É TUDO PRA MIM 💞💖','MEU AMOR POR VC É ETERNO 💖💗',
+];
+let ti=0,ci=0,ts='',dir=1;
+function rdr(){typedEl.innerHTML=ts+'<span class="cur"></span>';}
+function tick(){
+  if(dir===1){
+    if(ci<tphrases[ti].length){ts+=tphrases[ti][ci++];rdr();setTimeout(tick,80+Math.random()*50);}
+    else setTimeout(()=>{dir=-1;tick();},2800);
+  }else{
+    if(ts.length){ts=ts.slice(0,-1);rdr();setTimeout(tick,25);}
+    else{ti=(ti+1)%tphrases.length;ci=0;dir=1;setTimeout(tick,600);}
+  }
+}
+setTimeout(tick,900);
+</script>
+</body>
+</html>

@@ -1,0 +1,701 @@
+cartas= hk, sp, bt, vm, bn, ba, bl
+
+menu_titulo=Tudo Especialmente\nPra Você
+menu_subtitulo=✦ feito com muito amor ✦
+menu_divisor=🌸 escolha uma carta pra ler meu neném 🌸
+
+# ══════════════════════════════════════
+#  CARTA: hk — Hello Kitty
+# ══════════════════════════════════════
+hk_img=imagens/hellokitty.png
+
+hk_cor1=#ff6fa8
+hk_cor2=#c93070
+hk_cor_card_shadow=#ff6fa8
+hk_cor_badge_bg=#ffffff
+hk_cor_badge_texto=#ffffff
+hk_cor_nome=#ffffff
+hk_cor_player_bar=#ff6fa8
+hk_cor_texto=#4a1030
+hk_cor_titulo=
+
+hk_fonte_card_titulo=Pacifico
+hk_fonte_titulo=Pacifico
+hk_fonte_texto=Kalam
+hk_fonte_assinatura=Satisfy
+hk_fonte_badge=Caveat
+hk_tamanho_texto=1.05rem
+hk_linha_texto=2.05
+
+hk_tema_fundo_cor1=#ffcce0
+hk_tema_fundo_cor2=#ff85a1
+hk_tema_fundo_base=#ffdcea
+hk_tema_fundo_padrao=imagens/hellokitty.png
+hk_tema_papel_bg=rgba(255,255,255,.88)
+hk_tema_papel_borda_cor=rgba(255,182,217,.5)
+hk_tema_papel_borda_estilo=solido
+hk_tema_papel_borda_esquerda=nao
+hk_tema_papel_emoji_topo=🎀
+hk_tema_papel_emoji_canto=🐱
+hk_tema_papel_borda_extra=0 0 0 7px rgba(255,230,242,.5)
+hk_tema_linha_cor=rgba(255,133,161,.2)
+hk_tema_deco_topo_emojis=💗 💕 💖 💕 💗 💕 💖
+hk_tema_deco_linha1=🌸 ❀ 🌸 ❀ 🌸 ❀ 🌸
+hk_tema_deco_linha2=🌸 ❀ 🌸 ❀ 🌸 ❀ 🌸
+hk_tema_flutuantes=🎀,💕,🌸,⭐,✨,🐱,💗
+hk_tema_particulas=💕,🌸,✨,🎀,💗,🌺,⭐,💓,🩷
+hk_tema_entrada_efeito=confete
+hk_tema_titulo_estilo=gradiente
+hk_tema_titulo_tamanho=clamp(1.9rem,7.5vw,3.8rem)
+hk_tema_flash_cor=#ff6fa8
+hk_tema_card_overlay_estilo=suave
+hk_tema_extra_tela=nenhum
+
+hk_menu_badge=🎀 17/03/2026
+hk_menu_titulo=11 Meses 🤍
+hk_menu_sub=✨ CLIQUE PRA LER ✨
+hk_deco=✨ 💕 🎀 💕 ✨
+hk_titulo=17 De Março — 11 Meses
+hk_badge=🎀 17/03/26 • 11 meses juntos 🎀
+hk_assinatura=Espero Que Tenha Gostado 🤍
+hk_assinatura_sub=~ Eu Te Quero Pra Sempre 💕 ~
+hk_musica_url=musicas/hellokitty.ogg
+hk_musica_nome=Anjinho 🎀
+hk_album=nao
+hk_desbloqueio=17/03/2026
+
+hk_texto<<<
+ooioioii meu amoor, hoje eu quero q vc pare pra pensar em tudo q a gente viveu até aqui, em cada momento, cada conversa, cada risada, cada lembrança q fomos criando juntos ao longo do tempo, e enquanto tudo isso, hoje nós completa 11 meses juntos... pode parecer só um número para algumas pessoas, mas pra nós significa muita coisa, significa q durante meses e dias nós estivemos juntos, compartilhando partes da nossa vida, aprendendo um com o outro, criando sentimentos e construindo algo q pelo menos para mim, é muito importante.
+
+As vezes eu lembro de quando tudo começou, de como eu fui me aproximando de vc, de como fomos criando essa conexão q hoje virou um relacionamento, e é estranho pensar q alguém q antes era só uma pessoa na minha vida, hoje se tornou alguém tão importante para mim. Vc se tornou alguém q ocupa espaço nos meus pensamentos, nos meus sentimentos e nos meus planos, vc não é só minha namorada, vc é alguém q marcou minha vida de uma forma q eu não consigo simplesmente explicar, alguém q me fez sentir coisas q eu nunca tinha sentido antes, alguém q me ensinou q amar não é só gostar de alguém, mas tmb querer cuidar, proteger e estar presente.
+
+E agr q estamos chegando tão perto de um ano juntos, eu fico pensando no quanto eu realmente quero continuar essa história com vc. Eu não quero q isso termine em meses, eu quero q a gente continue, eu quero q a gente chegue ao nosso primeiro ano juntos, e dps anos e anos dps. Para mim chegar a um ano com vc seria algo muito especial, seria a prova de q a gente passou por momentos difíceis, por desafios, por brigas e mesmo assim decidiu continuar juntos, pq relacionamento de verdade não é aquele q nunca tem problemas, é aquele em q duas pessoas escolhem continuar tentando.
+
+Mas tmb tem algo dentro de mim q eu preciso falar, algo q está no meu coração e q me deixa muito triste. Eu te amo muito muito, e seja exatamente por isso q algumas coisas acabam me machucando tanto, pq quando a gente ama alguém de verdade, qualquer atitude q parece diminuir o valor do relacionamento acaba doendo mais do q deveria.
+
+Ultimamente eu tenho me sentido triste com algumas coisas q estão acontecendo entre nós. Eu não falo isso para te atacar, nem para começar uma briga, eu falo isso pq eu me importo com a gente e pq guardar tudo dentro de mim só vai acabar piorando as coisas.
+
+Uma das coisas q mais mexe cmg é quando a gente briga, parece q vc me troca ou dá atenção para outro garoto, ou pra outras pessoas nesses momentos, como aconteceu em um dia aí q vc sabe. Isso me machuca muito de verdade. Quando isso acontece eu começo a sentir coisas q eu não queria sentir, eu começo a me comparar, começo a pensar q talvez eu não seja suficiente, começo a sentir uma insegurança enorme dentro de mim, e eu não queria sentir isso no nosso relacionamento.
+
+Eu queria sentir segurança, queria sentir q mesmo quando a gente briga, ainda somos nós dois. Queria sentir q mesmo quando estamos irritados um com o outro, ninguém de fora vai ocupar um espaço q deveria ser nosso.
+
+Outra coisa q tmb me machuca é quando eu tento falar sobre algo q me incomoda e parece q minhas palavras não são realmente ouvidas. Eu sempre tento te ouvir quando algo te incomoda, quando vc fala q algo te machuca, eu tento refletir, entender e melhorar, pq seu sentimento importa muito para mim. Eu não quero ser alguém q ignora a dor de quem ama, mas as vezes eu sinto q quando sou eu q falo algo q me incomoda, isso não recebe a mesma atenção, e isso me faz sentir pequeno, como se oq eu sinto não tivesse tanto valor assim.
+
+Eu não peço coisas impossíveis, eu não peço controle sobre sua vida, eu não quero mandar em vc. Oq eu peço são coisas simples, o mínimo para proteger oq a gente tem. Tipo respeito, por exemplo, quando eu falo sobre alguém q claramente não respeita nosso relacionamento, para mim, o mínimo seria se afastar ou parar de seguir essa pessoa, não pq eu quero controlar quem vc conhece, mas pq eu acredito q quando duas pessoas se amam, elas tmb cuidam do relacionamento e evitam situações q possam machucar o outro.
+
+Oq eu mais queria sentir é q vc tmb se esforça por nós, assim como eu tento, mesmo eu não conseguindo as vezes, pq relacionamento não sobrevive só com o esforço de uma pessoa, ele precisa de duas pessoas q se importam, duas pessoas q querem cuidar daquilo q construíram juntos.
+
+Nosso relacionamento deveria ser mais importante do q qualquer pessoa q aparece de fora. Eu não estou dizendo isso para te pressionar, estou dizendo isso pq eu realmente quero q a gente dê certo.
+
+Pq apesar de tudo, apesar das tristezas q as vezes aparecem, vc ainda é alguém muito importante para mim. Vc ainda é a pessoa q eu escolhi amar, vc ainda é a pessoa com quem eu quero criar memórias, vc ainda é a pessoa com quem eu quero chegar ao nosso primeiro ano de namoro, e no futuro ainda muito mais anos.
+
+Eu não quero um relacionamento perfeito, eu só quero um relacionamento onde exista amor, respeito, esforço e cuidado dos dois lados, pq amar alguém não é só dizer "eu te amo", é tmb provar isso nas atitudes.
+
+E nunca nunca se esqueça q eu te amo muito muito muito mesmo, mais q qualquer pessoa, mais q qualquer palavra, mais q qualquer coisa q eu já tenha amado antes. Pq hoje quem eu amo verdadeiramente é vc minha linda, e eu pretendo amar pra sempre. 🤍💕
+>>>
+
+# ══════════════════════════════════════
+#  CARTA: sp — Spider-Man
+# ══════════════════════════════════════
+sp_img=imagens/spiderman.png
+
+sp_cor1=#c0001a
+sp_cor2=#8b0000
+sp_cor_card_shadow=#c0001a
+sp_cor_badge_bg=#c0001a
+sp_cor_badge_texto=#ffccc0
+sp_cor_nome=#ffffff
+sp_cor_player_bar=#ff3333
+sp_cor_texto=#1a0008
+sp_cor_titulo=
+
+sp_fonte_card_titulo=Bangers
+sp_fonte_titulo=Bangers
+sp_fonte_texto=Special Elite
+sp_fonte_assinatura=Bangers
+sp_fonte_badge=Bangers
+sp_tamanho_texto=1.05rem
+sp_linha_texto=2.0
+
+sp_tema_fundo_cor1=#3a0010
+sp_tema_fundo_cor2=#080000
+sp_tema_fundo_base=#050000
+sp_tema_papel_bg=#fffdf5
+sp_tema_papel_borda_cor=#c0001a
+sp_tema_papel_borda_estilo=hq
+sp_tema_papel_borda_esquerda=sim
+sp_tema_papel_emoji_topo=🕷️
+sp_tema_papel_emoji_canto=🕸️
+sp_tema_papel_borda_extra=6px 6px 0 #000
+sp_tema_linha_cor=rgba(139,0,0,.15)
+sp_tema_deco_topo_emojis=
+sp_tema_deco_linha1=
+sp_tema_deco_linha2=
+sp_tema_flutuantes=🕷️,🕸️,⚡,❤️,🔴
+sp_tema_particulas=🕷️,🕸️,❤️,⚡,🔴,💥
+sp_tema_entrada_efeito=teia
+sp_tema_titulo_estilo=solido
+sp_tema_titulo_tamanho=clamp(2.5rem,10vw,5.5rem)
+sp_tema_flash_cor=#c0001a
+sp_tema_card_overlay_estilo=escuro
+sp_tema_extra_tela=teia_svg
+
+sp_menu_badge=🕷️ 22/03/2026
+sp_menu_titulo=Feliz Aniversário 🥳
+sp_menu_sub=✨ CLIQUE PRA LER ✨
+sp_deco=🕷️ 🕸️ ❤️ 🕸️ 🕷️
+sp_titulo=Feliz Aniversário!
+sp_badge=🕷️ Feliz Aniversário Minha Neném 🕷️
+sp_assinatura=Que Você Tenha Um Belo Dia ❤️
+sp_assinatura_sub=~ Feito Com Todo Meu Amor 🕷️ ~
+sp_musica_url=musicas/spiderman.ogg
+sp_musica_nome=Quando Bate Aquela Saudade 🕷️
+sp_album=sim
+sp_album_titulo=📸 Álbum Da Minha Garota!
+sp_album_subtitulo=✦ a garota que eu guardo no coração ✦
+sp_foto1=imagens/spiderman_photo_1.png
+sp_foto1_legenda=A Minha Fofinha 😻
+sp_foto2=imagens/spiderman_photo_2.png
+sp_foto2_legenda=A Minha Perfeita 🙀
+sp_foto3=imagens/spiderman_photo_3.png
+sp_foto3_legenda=A Minha Pessoa Favorita 🤍
+sp_foto4=imagens/spiderman_photo_4.png
+sp_foto4_legenda=A Minha Princesa 💕
+sp_foto5=imagens/spiderman_photo_5.png
+sp_foto5_legenda=A Pessoa Que Eu Mais Amo ❤️
+sp_desbloqueio=22/03/2026
+
+sp_texto<<<
+feliz aniversário minha princesa, hoje é um dia muito especial pra mim e pra vc, pq é o dia em q o mundo ganhou a pessoa mais incrível q eu já conheci, e por isso q para mim esse dia tmb é especial por outro motivo, já é o segundo aniversário seu q eu tenho a sorte de presenciar contigo, isso pode parecer algo simples pra vc, essa minha forma de carta e tals, mas para mim significa muito, pq eu dedico meu tempo a isso, e faço com o maior carinho, e esse dia mostra q o tempo está passando e nós continuamos juntos, continuamos escolhendo um ao outro todos os dias.
+
+Não tem ninguém como vc, ninguém será melhor q vc na minha visão, pq vc é única, vc é aquela pessoa q mesmo sem perceber, consegue iluminar o meu dia inteiro com coisas simples, tipo os abraços do nada q vc me dava, os beijinhos inesperado q vc me dava, essas coisas, vc é todinha minha e eu sou todinho seu, nós nos amamos, e não tem ninguém q possa fazer o meu amor acabar por vc, nosso amor é maior q qualquer coisa, maior q discussões, maior q dificuldades.
+
+Nós amamos muito acima de tudo, acima das brigas q as vezes acontecem, acima dos momentos difíceis q a vida coloca na nossa frente pra lidar, o nosso amor está presente em cada detalhe, em cada conversa, em cada risada e até nos momentos em q ficamos em silêncio um com o outro, vc me deixa tão feliz q as vezes eu nem sei explicar oq eu sinto, é um tipo de felicidade q não cabe em dizer, eu amo tanto vc q as vezes parece q eu fico até meio louco, q eu fico te reinando, te mordendo KAKSKSKSKA e eu amo amar vc.
+
+Minha garotinha eu sei q a vida nem sempre foi fácil pra vc, eu sei q vc já passou por muitas coisas, e talvez ainda esteja passando por algumas dificuldades, mas eu quero q vc possa se sentir verdadeiramente amada, protegida e acolhida nos meus braços, mesmo quando brigarmos, mesmo quando tivermos momentos difíceis, o meu amor por vc nunca vai mudar, eu sempre vou estar aqui por vc, sempre e sempre.
+
+Eu não sei nem como agradecer direito só pelo fato de vc existir na minha vida, pq desde q vc entrou nela tudo parece ter ganhado mais cor, mais sentido. Quando eu precisei de alguém foi vc quem me acolheu, foi vc quem me apoiou em tudo, foi vc quem esteve ali quando eu precisava de um abraço, de uma palavra ou simplesmente de alguém para ficar ao meu lado.
+
+Por isso eu tmb quero pedir desculpa se as vezes eu te machuco de alguma forma, as vezes eu sinto as coisas demais, as vezes eu erro, as vezes eu penso q talvez eu não seja um namorado tão bom quanto vc merece, pq vc é uma pessoa tão especial q merece o mundo inteiro e muito mais, mas mesmo assim eu tento todos os dias ser melhor por vc.
+
+Em vc eu vejo milhares de pequenos detalhes q fazem vc ser incrível, seu jeito, sua forma de falar, seu sorriso, seu olhar, isso tudo eu vejo quando estou te encarando mas vc fala q eu tô te julgando KKAKSKSKS mas nunca é isso, é apenas eu vendo esse seu brilho radiante no olhar q sempre me encanta, é algo q eu nunca me canso de ver, pq vc é minha pessoa favorita, minha namorada, minha melhor amiga, minha felicidade.
+
+Neste seu aniversário eu faço um pedido, q Deus, o papai do céu, abençoe muito a sua vida, q ele ilumine sempre o seu caminho, q proteja vc em todos os lugares e q traga muita felicidade para o seu coração e felicidades pro nosso relacionamento.
+
+Quando eu tiver dinheiro eu vou te dar coisas melhores, me desculpa por algo tão simples assim. Mas por fim, feliz aniversário minha mulher, lembre sempre q eu te amo muito muito, e para sempre. 🤍
+>>>
+
+# ══════════════════════════════════════
+#  CARTA: bt — Batman / Lua
+# ══════════════════════════════════════
+bt_img=imagens/batman.png
+
+bt_cor1=#cc9900
+bt_cor2=#6b4f00
+bt_cor_card_shadow=#cc9900
+bt_cor_badge_bg=#cc9900
+bt_cor_badge_texto=#fff7cc
+bt_cor_nome=#ffe566
+bt_cor_player_bar=#ffcc00
+bt_cor_texto=#1a1000
+bt_cor_titulo=
+
+bt_fonte_card_titulo=Bangers
+bt_fonte_titulo=Bangers
+bt_fonte_texto=Special Elite
+bt_fonte_assinatura=Satisfy
+bt_fonte_badge=Caveat
+bt_tamanho_texto=1.05rem
+bt_linha_texto=2.0
+
+bt_tema_fundo_cor1=#1a1400
+bt_tema_fundo_cor2=#080600
+bt_tema_fundo_base=#050400
+bt_tema_papel_bg=rgba(255,252,230,.94)
+bt_tema_papel_borda_cor=#cc9900
+bt_tema_papel_borda_estilo=hq
+bt_tema_papel_borda_esquerda=sim
+bt_tema_papel_emoji_topo=🌕
+bt_tema_papel_emoji_canto=⭐
+bt_tema_papel_borda_extra=5px 5px 0 #000
+bt_tema_linha_cor=rgba(160,120,0,.15)
+bt_tema_deco_topo_emojis=🌕 💛 ⭐ 💛 🌕 💛 ⭐
+bt_tema_deco_linha1=🌕 ⭐ 🌕 ⭐ 🌕 ⭐ 🌕
+bt_tema_deco_linha2=🌕 ⭐ 🌕 ⭐ 🌕 ⭐ 🌕
+bt_tema_flutuantes=🌕,⭐,💛,✨,🌟
+bt_tema_particulas=🌕,⭐,💛,✨,🌟
+bt_tema_entrada_efeito=particulas
+bt_tema_titulo_estilo=solido
+bt_tema_titulo_tamanho=clamp(2.2rem,9vw,5rem)
+bt_tema_flash_cor=#cc9900
+bt_tema_card_overlay_estilo=escuro
+bt_tema_extra_tela=nenhum
+
+bt_menu_badge=🌕 01/04/2026
+bt_menu_titulo=Perto De 1 Ano 💛
+bt_menu_sub=✨ CLIQUE PRA LER ✨
+bt_deco=🌕 ⭐ ✨ 💛 🌕
+bt_titulo=Perto De 1 Ano Juntos!
+bt_badge=🌕 01/04/2026 💛
+bt_assinatura=Que Nós Consiga Completar Um Ano 🌕
+bt_assinatura_sub=~ De Lele Pra Bibia ❤️ ~
+bt_musica_url=musicas/batman.ogg
+bt_musica_nome=Luz Que Me Traz Paz 🌕
+bt_album=nao
+bt_desbloqueio=01/04/2026
+
+bt_texto<<<
+falta poucos dias pra nós completar 1 ano, e mesmo esse dia sendo conhecido como o dia da mentira, oq eu sinto por vc nunca foi mentira, e na verdade cada dia q passa eu percebo ainda mais o quanto vc é importante pra mim.
+
+Faltam poucos dias, dia 17 a gente completa 1 ano juntos, um ano de momentos, conversas, risadas, lembranças, carinho e tudo aquilo q só nós dois sabemos q vivemos. Quando eu paro pra pensar nisso, meu coração fica cheio de esperança em nós, pq eu realmente quero q a gente chegue nesse dia de mãos dadas, com o mesmo amor q nos trouxe até aqui.
+
+Eu espero muito q tudo dê certo entre nós, q a gente continue escolhendo um ao outro todos os dias, mesmo quando as coisas não forem tão fáceis, pq como eu disse, amar tmb é cuidar, é respeitar, é tentar, é não desistir quando algo importa de verdade.
+
+Vc é uma pessoa muito especial pra mim, desde q entrou na minha vida muita coisa ganhou mais cor, mais sentido, e eu quero continuar vivendo novas memórias com vc, continuar rindo juntos, conversando sobre tudo e construindo nossa história aos poucos.
+
+Dia 17 vai ser um dia muito importante pra mim, pq completar 1 ano com vc significa q tudo oq sentimos foi forte o suficiente para chegar até aqui, e eu sinceramente espero q a gente possa olhar um pro outro nesse dia e perceber q ainda vale a pena continuar, q a gente cuide do q temos, q a gente proteja nosso amor e q esse seja apenas o primeiro de muitos anos juntos.
+
+Pq de verdade eu gosto muito de vc e ainda quero viver muita coisa ao seu lado. Faltam poucos dias, e eu estou torcendo para q a gente chegue lá juntos 🤗💕
+>>>
+
+# ══════════════════════════════════════
+#  CARTA: vm — Venom / Preto e Branco
+# ══════════════════════════════════════
+vm_img=imagens/venom.png
+
+vm_cor1=#ffffff
+vm_cor2=#888888
+vm_cor_card_shadow=#ffffff
+vm_cor_badge_bg=#222222
+vm_cor_badge_texto=#ffffff
+vm_cor_nome=#ffffff
+vm_cor_player_bar=#ffffff
+vm_cor_texto=#111111
+vm_cor_titulo=#ffffff
+
+vm_fonte_card_titulo=Bangers
+vm_fonte_titulo=Bangers
+vm_fonte_texto=Special Elite
+vm_fonte_assinatura=Satisfy
+vm_fonte_badge=Caveat
+vm_tamanho_texto=1.05rem
+vm_linha_texto=2.0
+
+vm_tema_fundo_cor1=#1a1a1a
+vm_tema_fundo_cor2=#333333
+vm_tema_fundo_base=#000000
+vm_tema_papel_bg=rgba(255,255,255,.93)
+vm_tema_papel_borda_cor=#222222
+vm_tema_papel_borda_estilo=hq
+vm_tema_papel_borda_esquerda=sim
+vm_tema_papel_emoji_topo=🖤
+vm_tema_papel_emoji_canto=🤍
+vm_tema_papel_borda_extra=5px 5px 0 #000
+vm_tema_linha_cor=rgba(0,0,0,.12)
+vm_tema_deco_topo_emojis=🖤 🤍 🖤 🤍 🖤 🤍 🖤
+vm_tema_deco_linha1=🖤 ✦ 🤍 ✦ 🖤 ✦ 🤍
+vm_tema_deco_linha2=🖤 ✦ 🤍 ✦ 🖤 ✦ 🤍
+vm_tema_flutuantes=🖤,🤍,⭐,✨,🌑
+vm_tema_particulas=🖤,🤍,✨,⭐,🌟
+vm_tema_entrada_efeito=particulas
+vm_tema_titulo_estilo=solido
+vm_tema_titulo_tamanho=clamp(2.2rem,9vw,5rem)
+vm_tema_flash_cor=#ffffff
+vm_tema_card_overlay_estilo=escuro
+vm_tema_extra_tela=nenhum
+
+vm_menu_badge=🖤 18/03/2026
+vm_menu_titulo=335 Dias Te Amando 🤍
+vm_menu_sub=✨ CLIQUE PRA LER ✨
+vm_deco=🖤 🤍 ⭐ 🤍 🖤
+vm_titulo=11 Meses e 1 Dia, Você Sendo Meu Amor!
+vm_badge=🖤 18/03/2026 • 335 Dias Juntos 🤍
+vm_assinatura=EU TE AMOOO DEMAISSS 🖤
+vm_assinatura_sub=~ Eu E Você Pra Sempre 🤍 ~
+vm_musica_url=musicas/venom.ogg
+vm_musica_nome=Como Eu Quero 🖤
+vm_album=nao
+vm_desbloqueio=18/03/2026
+
+vm_texto<<<
+quando se trata de vc, tudo em mim fica meio bagunçado, mas de um jeito bom; vc me assusta, e eu sei q isso pode soar estranho, mas é pq em nenhum momento da minha vida eu quis alguém do jeito q eu quero vc.
+
+nunca fui assim com ninguém; nunca foi tão intenso, tão verdadeiro; é como se vc tivesse chegado e mudado tudo sem perceber, sem esforço, só sendo vc.
+
+tem momentos simples, tipo quando a gente tá conversando, rindo de qualquer coisa, falando besteira, e do nada eu paro e penso: "oh mds, eu amo essa garota".
+
+vc me faz sorrir de um jeito leve, natural, sem eu precisar forçar nada; vc tira risadas minhas q nem eu sabia que ainda existiam.
+
+e quando eu penso em vc, meus pensamentos vêm diretamente a tudo de vc, e foi aí q eu entendi; q eu realmente te amo.
+
+eu percebi isso no momento mais sincero q eu tive comigo mesmo, quando eu me joguei na cama e comecei a chorar; não era drama, não era exagero, era medo.
+
+medo de te perder, medo de não ser suficiente, medo de não conseguir cuidar de algo tão importante pra mim.
+
+e naquele momento eu senti uma coisa muito forte; q eu queria melhorar, não por obrigação, mas pq vc vale isso, pq nós valemos isso.
+
+eu te amo de um jeito q às vezes chega a doer; dói pq tudo em mim gira em torno de vc, pq vc virou pensamento constante, virou parte de mim.
+
+e só de imaginar um mundo sem vc já me deixa mal de verdade; é como se faltasse ar, eu perco minha motivação e tudo.
+
+e talvez seja por isso q vc virou meu oxigênio; pq é com vc q eu respiro melhor, q eu me sinto em paz, q eu me sinto seguro.
+
+vc é minha casa; não importa onde eu esteja, se eu tenho vc eu tô bem; vc é meu porto seguro, meu lugar de descanso, minha zona de conforto no meio do caos.
+
+e tem uma coisa q eu nunca vou esquecer; vc me deu vontade de viver, não só de existir, de viver de verdade.
+
+é como se no momento em q eu me apaixonei por vc, eu tmb tivesse me apaixonado pela vida; tudo ficou mais bonito, mais leve, mais cheio de sentido.
+
+e eu sei com uma certeza q não dá pra explicar; q vc é a pessoa q eu vou sempre escolher, independente da situação, independente das dificuldades.
+
+vc é a única pessoa q eu quero continuar amando, entendendo e cuidando todos os dias.
+
+pq vc é a mulher dos meus sonhos; não uma ideia perfeita, mas alguém real q é perfeita pra mim.
+
+eu olho pra vc e penso: "eu tive sorte"; sorte de ter encontrado alguém tão linda, mas muito mais do q isso, alguém tão forte.
+
+o q mais me encanta em vc não é só sua aparência; é a tua vontade de dar certo, de continuar, de não desistir mesmo nos momentos difíceis.
+
+isso me prende em vc de um jeito q nada mais conseguiria.
+
+e quando eu te vejo, dá uma vontade enorme de cuidar de vc, de te proteger, de estar ali pra tudo; como se vc fosse a coisa mais preciosa do mundo.
+
+e pra mim vc é mesmo.
+
+eu te amo nos mínimos detalhes; amo seus olhos, amo o jeito q vc fala comigo, amo a sua risada, amo seu jeito único.
+
+e amo principalmente a forma como vc me trata quando está tudo bem; vc me faz sentir amado de verdade, e isso muda tudo dentro de mim.
+
+e tem momentos pequenos, simples, mas q ficam gigantes pra mim.
+
+tipo quando vc me chama de "meu príncipe", ou faz aquelas vozes comigo e me mima; pode parecer bobo, mas na hora eu sinto algo muito forte.
+
+é como se eu fosse importante pra alguém incrível, e ao mesmo tempo eu fico tranquilo; como se tudo q eu precisasse fosse estar ali com vc.
+
+existe uma garota com um sorriso q desmonta qualquer tristeza minha, com olhos q me prendem de um jeito q eu não consigo desviar.
+
+com um cabelo perfeito, com uma personalidade perfeita pra mim, e com um coração q me conquistou por completo.
+
+e essa garota é vc.
+
+e eu não tenho dúvida nenhuma, nenhuma mesmo; q é vc q eu quero pra minha vida inteira.
+
+é vc q eu quero ter ao meu lado em todos os momentos; é vc q eu quero amar todos os dias, mesmo nos dias difíceis, mesmo quando não for fácil.
+
+pq amor de verdade é isso; e o q eu sinto por vc é de verdade.
+
+e às vezes eu paro e penso em tudo isso; e dá vontade de chorar, não de tristeza, mas pq tudo em nós é intenso demais.
+
+pq vc significa muito mais do q eu consigo colocar em palavras.
+
+vc não é só alguém q eu amo; vc virou parte de mim.
+
+e eu gostaria de todos os dias continuar tentando ser alguém melhor pra vc e pra nós.
+
+pq vc merece isso; pq nós merecemos isso.
+
+e saiba q eu te amo muito, muito, mais do q eu já amei qualquer coisa na minha vida.
+
+e eu vou continuar te amando até onde vc me permita amar 🥺🤍
+>>>
+
+# ══════════════════════════════════════
+#  CARTA: bn — Ben 10
+# ══════════════════════════════════════
+bn_img=imagens/ben10.png
+
+bn_cor1=#00cc44
+bn_cor2=#004d1a
+bn_cor_card_shadow=#00cc44
+bn_cor_badge_bg=#00aa33
+bn_cor_badge_texto=#ccffdd
+bn_cor_nome=#ccffdd
+bn_cor_player_bar=#00ee55
+bn_cor_texto=#0a1a0a
+bn_cor_titulo=
+
+
+bn_tema_fundo_cor1=#0a2e0a
+bn_tema_fundo_cor2=#001a00
+bn_tema_fundo_base=#000a00
+bn_tema_papel_bg=rgba(230,255,235,.94)
+bn_tema_papel_borda_cor=#00aa33
+bn_tema_papel_borda_estilo=hq
+bn_tema_papel_borda_esquerda=sim
+bn_tema_papel_emoji_topo=🟢
+bn_tema_papel_emoji_canto=⚡
+bn_tema_papel_borda_extra=5px 5px 0 #000
+bn_tema_linha_cor=rgba(0,120,40,.15)
+bn_tema_deco_topo_emojis=🟢 ⚡ 🟢 ⚡ 🟢 ⚡ 🟢
+bn_tema_deco_linha1=🟢 ✦ ⚡ ✦ 🟢 ✦ ⚡
+bn_tema_deco_linha2=🟢 ✦ ⚡ ✦ 🟢 ✦ ⚡
+bn_tema_flutuantes=🟢,⚡,🌿,✨,💚
+bn_tema_particulas=🟢,⚡,🌿,✨,💚,🍀
+bn_tema_entrada_efeito=particulas
+bn_tema_titulo_estilo=solido
+bn_tema_titulo_tamanho=clamp(2.2rem,9vw,5rem)
+bn_tema_flash_cor=#00cc44
+bn_tema_card_overlay_estilo=escuro
+bn_tema_extra_tela=nenhum
+
+bn_menu_badge=🟢 20/03/2026
+bn_menu_titulo=EU TE AMO DEMAIS 💚
+bn_menu_sub=✨ CLIQUE PRA LER ✨
+bn_deco=🟢 ⚡ 💚 ⚡ 🟢
+bn_desbloqueio=20/03/2026
+bn_html=cartas/ben10.html
+bn_musica_url=musicas/ben10.ogg
+bn_musica_nome=Pra Sonhar 💚
+
+# ══════════════════════════════════════
+#  CARTA: fn — Frozen
+# ══════════════════════════════════════
+fn_img=imagens/frozen.png
+
+fn_cor1=#a8d8ff
+fn_cor2=#1a6699
+fn_cor_card_shadow=#a8d8ff
+fn_cor_badge_bg=#1a6699
+fn_cor_badge_texto=#e8f6ff
+fn_cor_nome=#e8f6ff
+fn_cor_player_bar=#a8d8ff
+fn_cor_texto=#0a1a2e
+fn_cor_titulo=
+
+fn_fonte_card_titulo=Pacifico
+fn_fonte_titulo=Pacifico
+fn_fonte_texto=Kalam
+fn_fonte_assinatura=Satisfy
+fn_fonte_badge=Caveat
+fn_tamanho_texto=1.05rem
+fn_linha_texto=2.05
+
+fn_tema_fundo_cor1=#0d2a4a
+fn_tema_fundo_cor2=#051525
+fn_tema_fundo_base=#020810
+fn_tema_papel_bg=rgba(225,245,255,.93)
+fn_tema_papel_borda_cor=#7ec8f0
+fn_tema_papel_borda_estilo=solido
+fn_tema_papel_borda_esquerda=nao
+fn_tema_papel_emoji_topo=❄️
+fn_tema_papel_emoji_canto=🌨️
+fn_tema_papel_borda_extra=0 0 0 6px rgba(168,216,255,.3)
+fn_tema_linha_cor=rgba(126,200,240,.2)
+fn_tema_deco_topo_emojis=❄️ 💙 ❄️ 💙 ❄️ 💙 ❄️
+fn_tema_deco_linha1=❄️ ✦ 💙 ✦ ❄️ ✦ 💙
+fn_tema_deco_linha2=❄️ ✦ 💙 ✦ ❄️ ✦ 💙
+fn_tema_flutuantes=❄️,💙,🌨️,✨,🫧
+fn_tema_particulas=❄️,💙,🌨️,✨,🫧,⭐
+fn_tema_entrada_efeito=neve
+fn_tema_titulo_estilo=gradiente
+fn_tema_titulo_tamanho=clamp(1.9rem,7.5vw,3.8rem)
+fn_tema_flash_cor=#a8d8ff
+fn_tema_card_overlay_estilo=escuro
+fn_tema_extra_tela=nenhum
+
+fn_menu_badge=❄️ 21/03/2026
+fn_menu_titulo=TUDO PRA VC 💙
+fn_menu_sub=✨ CLIQUE PRA LER ✨
+fn_deco=❄️ 💙 ✨ 💙 ❄️
+fn_desbloqueio=21/03/2026
+fn_html=cartas/frozen.html
+fn_musica_url=musicas/frozen.ogg
+fn_musica_nome=HDMI 💙
+
+# ══════════════════════════════════════
+#  CARTA: ba — Bia
+# ══════════════════════════════════════
+ba_img=imagens/bia.png
+
+ba_cor1=#ff2255
+ba_cor2=#8b0020
+ba_cor_card_shadow=#ff2255
+ba_cor_badge_bg=#8b0020
+ba_cor_badge_texto=#ffccd5
+ba_cor_nome=#ffccd5
+ba_cor_player_bar=#ff2255
+ba_cor_texto=#1a0008
+ba_cor_titulo=
+
+ba_fonte_card_titulo=Pacifico
+ba_fonte_titulo=Pacifico
+ba_fonte_texto=Kalam
+ba_fonte_assinatura=Satisfy
+ba_fonte_badge=Caveat
+ba_tamanho_texto=1.05rem
+ba_linha_texto=2.05
+
+ba_tema_fundo_cor1=#2a0010
+ba_tema_fundo_cor2=#0a0005
+ba_tema_fundo_base=#050002
+ba_tema_papel_bg=rgba(255,240,245,.92)
+ba_tema_papel_borda_cor=#ff2255
+ba_tema_papel_borda_estilo=hq
+ba_tema_papel_borda_esquerda=sim
+ba_tema_papel_emoji_topo=🌹
+ba_tema_papel_emoji_canto=💋
+ba_tema_papel_borda_extra=5px 5px 0 #000
+ba_tema_linha_cor=rgba(180,0,40,.12)
+ba_tema_deco_topo_emojis=🤎 🌹 💕 🌹 🤎 🌹 💕
+ba_tema_deco_linha1=🤎 ✦ 🌹 ✦ 💕 ✦ 🌹
+ba_tema_deco_linha2=🤎 ✦ 🌹 ✦ 💕 ✦ 🌹
+ba_tema_flutuantes=🤎,🌹,💕,✨,❤️
+ba_tema_particulas=🤎,🌹,💕,✨,❤️,💋
+ba_tema_entrada_efeito=confete
+ba_tema_titulo_estilo=gradiente
+ba_tema_titulo_tamanho=clamp(1.9rem,7.5vw,3.8rem)
+ba_tema_flash_cor=#ff2255
+ba_tema_card_overlay_estilo=escuro
+ba_tema_extra_tela=nenhum
+
+ba_menu_badge=🌹 03/04/2026
+ba_menu_titulo=351 Dias 🤎
+ba_menu_sub=✨ CLIQUE PRA LER ✨
+ba_deco=🤎 🌹 💕 🌹 🤎
+ba_titulo=03 De Abril — 351 Dias
+ba_badge=🌹 03/04/26 • 351 Dias Juntos 💕
+ba_assinatura=To Com Muita Saudade De Vc 🤎
+ba_assinatura_sub=~ Eu Quero Te Ver Logo :(( ~
+ba_musica_url=musicas/bia.ogg
+ba_musica_nome=Te Esperando 🌹
+ba_album=nao
+ba_desbloqueio=03/04/2026
+
+ba_texto<<<
+eu fico pensando na gente, tipo no q somos hoje, e principalmente no q ainda desejo q vamos ser, pq pra mim isso aqui nunca foi só um namoro qualquer. Eu sempre enxerguei muito além, pq eu quero q o nosso futuro seja muito maior do q namoro, q o nosso amor seja muito maior do q qualquer obstáculo q tente aparecer no nosso caminho.
+
+Eu não sei exatamente oq o futuro reserva pra nós, mas de uma coisa eu tenho certeza: eu quero muito q seja com vc. E é até estranho, pq antes de vc eu sempre gostei do meu tempo sozinho, sempre fui de boa com isso, mas agora quando eu tô sozinho eu sinto sua falta, e com isso eu vejo q muita coisa mudou dentro de mim. Foi aí q eu entendi q vc é diferente, e muito diferente mesmo, pq vc não é só mais uma pessoa na minha vida, vc é a pessoa q mudou a forma como eu vejo tudo.
+
+Toda vez q eu saio pra algum lugar, eu automaticamente penso "isso aqui seria muito melhor se ela estivesse comigo", e não é pensamento passageiro, é um sentimento constante. É como se sem vc sempre faltasse alguma coisa em mim.
+
+Eu não tô com vc pra passar alguns meses e depois ir embora, eu não tô aqui pra viver algo temporário. Eu tô com vc pq eu quero construir algo duradouro, q dure anos e anos. Eu tô com vc pq no fundo eu já escolhi vc pro meu futuro, eu tô namorando vc com a intenção de casar com vc um dia, e é por isso q eu tô disposto a lutar pela gente, pelo q a gente tem.
+
+Vc tá completamente errada se acha q eu iria embora depois de conhecer suas inseguranças, seus medos, suas falhas, depois de ver lados seus q talvez ninguém nunca tenha visto. Isso não me afasta, isso só me faz querer ficar mais, pq é vc de verdade, e é essa versão sua q eu escolhi amar.
+
+Eu espero q vc saiba de verdade q eu nunca vou me cansar de vc. Pq eu te amo nos seus dias bons, quando tudo parece leve e bom, mas tmb te amo nos seus dias ruins, quando vc acha q não é suficiente, quando vc duvida de si mesma, pq pra mim vc sempre vai ser mais do q suficiente.
+
+Sendo sincero, as vezes eu olho pra vc e bate um sentimento estranho, uma sensação de q eu não sou suficiente, pq vc é incrível em um nível q eu nem sei explicar. Fico pensando se eu consigo ser tudo q uma mulher como vc merece. Mas mesmo com esse medo eu continuo aqui, pq te amar vale qualquer insegurança q eu tenha.
+
+Vc sabe q eu gosto muito de vc, mas na verdade eu gosto muito mais do q vc imagina, muito mais do q eu consigo demonstrar. Isso é um sentimento q cresce em silêncio, mas q toma conta de tudo, da minha mente, do meu corpo e da minha alma por completo.
+
+Vc me assusta, não de um jeito ruim, mas sim de um jeito intenso, pq em nenhum momento da minha vida eu quis alguém da forma q eu quero vc. Nunca foi assim com ninguém, nunca foi tão forte, tão insistente, pq agora tudo q é vc é impossível de ignorar.
+
+E se depender de mim eu nunca vou soltar sua mão, nunca vou desistir da gente, pq foi em vc q eu encontrei paz. E não é qualquer pessoa q traz isso, não é qualquer pessoa q faz o mundo parecer mais tranquilo só por existir.
+
+Quando vc pensa q eu poderia te trocar por outra, para de pensar nisso, pq não faz sentido. Pq pra mim vc é literalmente a garota dos meus sonhos, aquela q eu nem sabia q existia, mas q agora q eu encontrei eu não consigo imaginar perder.
+
+Eu olho pra vc e na minha cabeça não existe comparação. Pq pra mim vc é a pessoa mais linda, mais perfeita, mais única, não é falso como vc fala, não é só sentimento momentâneo, é a forma como eu realmente te vejo.
+
+No meio de tudo isso, de todos esses sentimentos, de todas essas palavras, tem uma coisa simples q resume tudo: eu escolho vc todos os dias. Mesmo nos dias difíceis, mesmo quando dá medo, mesmo quando a vida complica, eu escolho vc, e continuaria escolhendo mil vezes se for preciso 💕
+>>>
+
+bl_img=imagens/1ano.gif
+
+bl_cor1=#6a329f
+bl_cor2=#351c75
+bl_cor_card_shadow=#6a329f
+bl_cor_badge_bg=#ffffff
+bl_cor_badge_texto=#ffffff
+bl_cor_nome=#ffffff
+bl_cor_player_bar=#6a329f
+bl_cor_texto=#351c75
+bl_cor_titulo=
+
+bl_fonte_card_titulo=Pacifico
+bl_fonte_titulo=Pacifico
+bl_fonte_texto=Kalam
+bl_fonte_assinatura=Satisfy
+bl_fonte_badge=Caveat
+bl_tamanho_texto=1.05rem
+bl_linha_texto=2.05
+
+bl_tema_fundo_cor1=#6a329f
+bl_tema_fundo_cor2=#351c75
+bl_tema_fundo_base=#8e7cc3
+bl_tema_fundo_padrao=imagens/1ano.gif
+bl_tema_papel_bg=rgba(255,255,255,.88)
+bl_tema_papel_borda_cor=rgba(255,182,217,.5)
+bl_tema_papel_borda_estilo=solido
+bl_tema_papel_borda_esquerda=nao
+bl_tema_papel_emoji_topo=💞
+bl_tema_papel_emoji_canto=🐱
+bl_tema_papel_borda_extra=0 0 0 7px rgba(255,230,242,.5)
+bl_tema_linha_cor=rgba(255,133,161,.2)
+bl_tema_deco_topo_emojis=💜 💜 💜 💜 💜 💜 💜
+bl_tema_deco_linha1=💞 💜 💞 💜 💞 💜 💞
+bl_tema_deco_linha2=💞 💜 💞 💜 💞 💜 💞
+bl_tema_flutuantes=💞,💕,💘,💟,🤍,💜,💗
+bl_tema_particulas=💞,💕,💘,💟,🤍,💜,💗,💞,💕,💘,💟,🤍,💜,💗
+bl_tema_entrada_efeito=confete
+bl_tema_titulo_estilo=gradiente
+bl_tema_titulo_tamanho=clamp(1.9rem,7.5vw,3.8rem)
+bl_tema_flash_cor=#6a329f
+bl_tema_card_overlay_estilo=suave
+bl_tema_extra_tela=nenhum
+
+bl_menu_badge=💞 17/04/2026
+bl_menu_titulo=1 Ano Juntos 💗
+bl_menu_sub=✨ CLIQUE PRA LER ✨
+bl_deco=✨ 💕 💞 💕 ✨
+bl_titulo=17 De Abril — 1 Ano
+bl_badge=💞 17/04/26 • 1 ano juntos 💞
+bl_assinatura=Espero Que Venham Mais Anos 💞
+bl_assinatura_sub=~ Muito Obrigado Por Tudo! 💕 ~
+bl_musica_url=musicas/1ano.ogg
+bl_musica_nome=When It's Cold I'd Like to Die 💞
+bl_album=sim
+bl_album_titulo=📸 Momentos Da Nossa Vida!
+bl_album_subtitulo=❣ a garota que eu quero me casar ❣
+bl_foto1=imagens/bl_photo_1.gif
+bl_foto2=imagens/bl_photo_2.gif
+bl_foto3=imagens/bl_photo_3.gif
+bl_foto4=imagens/bl_photo_4.gif
+bl_foto5=imagens/bl_photo_5.jpg
+bl_foto6=imagens/bl_photo_6.jpg
+bl_foto7=imagens/bl_photo_7.jpg
+bl_foto8=imagens/bl_photo_8.jpg
+bl_desbloqueio=17/04/2026
+
+bl_texto<<<
+Hoje não é só mais um dia ou um dia normal como os outros e tals, hoje é o dia q marca 365 dias do seu lado, um ano inteiro juntos, e quando eu paro pra imaginar isso, eu não consigo ver só "um ano", eu vejo cada detalhe, cada momento, cada sensação q eu vivi com vc, pq com vc nada é comum, tudo é mais intenso, mais verdadeiro, e mais importante.
+
+Eu olho pra vc e as vezes vejo vc se fazendo de madura, toda decidida, toda séria, como se fosse durona, mas eu conheço vc de verdade, eu conheço a garotinha q existe ai dentro, aquela menina sem maldade, com o coração puro, q ama dormir, q ama comer, q cuida do cabelo e q ama pelúcias, e q se perde assistindo vídeos de comida, e é exatamente isso q me faz olhar pra vc e te amar ainda mais, pq vc não é só uma coisa, vc é um universo inteiro dentro de uma pessoa só, e independente de qualquer coisa q aconteça, independente dos dias bons ou difíceis, eu sempre vou te amar,  mas não é um "amar" simples, é um amor enorme, daqueles q não dá pra falar tudo, não dá pra explicar, só sentir por eu mesmo.
+
+Talvez eu não seja perfeito, ou eu tenho certeza dessas coisas, e talvez eu não seja a melhor pessoa do mundo, talvez eu erre mais do q deveria mas mesmo assim existe uma coisa dentro de mim q nunca muda, q é o quanto eu te amo, o meu amor por vc não depende de perfeição, ele depende de verdade, e é isso q eu quero pra nós todos os dias.
+
+Se for preciso eu insistiria em vc todos os dias da minha vida, quantas vezes fosse necessário, quantas vezes vc deixasse, quantas vezes vc precisasse, pq eu insistir em vc nunca foi difícil, pelo contrário, é a coisa mais natural do mundo, insistir em vc é insistir no amor em q eu ainda acredito existir, e se existe um motivo pra eu nunca desistir de tudo, pode ter certeza q esse motivo é vc.
+
+Vc não sai da minha cabeça nunca em nenhum momento, eu penso em vc o tempo todo, nas coisas mais simples, nos momentos mais aleatórios, pq vc virou parte de mim, e não é só pq vc é linda, mas sim pq vc é vc, pq vc tem algo q ninguém nunca teve e nunca vai ter, algo q me prende, q me acalma, q me completa.
+
+E o mais louco disso tudo, é q a gente já tinha cruzado o caminho um do outro antes, como se Deus estivesse só esperando o momento certo pra juntar a gente de verdade, e quando esse momento chegou pra nós, tudo fez sentido, como se cada erro, cada caminho, cada escolha, tivesse sido só pra me trazer até vc.
+
+E eu falo isso sem medo nenhum, se vc não for o amor da minha vida, então eu errei de vida, não de amor, pq amar vc foi a coisa mais certa q eu já fiz.
+
+Vc é a pessoa q eu espero mensagem, a pessoa q eu sinto falta o tempo inteiro, a pessoa q faz o tempo voar quando esta comigo, vc é o meu último pensamento antes de dormir, e muitas vezes o primeiro quando eu acordo, pq pra mim vc é a mulher da minha vida, e eu te amo de um jeito q nem todas as palavras do mundo seriam suficientes pra explicar.
+
+E eu quero q vc guarde isso com vc, não tenha medo, não se preocupe com o futuro, não tenha insegurança, pq se der certo eu vou estar com vc, e se der errado eu tmb vou estar com vc, pq não é sobre dar certo ou errado, é sobre ser nós, sempre ser nós, pq eu nunca vou soltar sua mão, e eu sempre vou amar vc, pq foi vc q me amou quando nem eu conseguia me amar, e isso tem um valor q ninguém consegue entender, só eu mesmo e eu nunca vou esquecer disso.
+
+Eu tenho um orgulho gigante de vc, da mulher incrível, forte e maravilhosa q vc é, vc me inspira, vc me dá força, vc me faz querer ser alguém melhor todos os dias, e eu vou lutar por nós, todos os dias, eu vou fazer oq for preciso pra te ver bem, pra te ver feliz, pra te ver segura cmg, pq vc merece tudo de melhor, e eu quero ser parte disso.
+
+Vc pode até achar q sabe o quanto eu te amo, mas tmb é q vc não faz ideia do quanto, pq oq eu sinto por vc é muito maior do q qualquer coisa q vc consiga imaginar.
+
+Pois existe uma garota com uma personalidade incrível, com olhos q brilham de um jeito único, com um cabelo perfeito, com um sorriso q muda completamente o meu dia, e essa garota é vc, e é com vc q eu quero construir tudo, é com vc q eu quero casar, é com vc q eu quero viver o resto da minha vida.
+
+Eu vejo gente falando mal de relacionamento, falando mal da própria namorada, e eu simplesmente não consigo entender, pq pra mim vc é perfeita pra mim, é companheira, presente, linda de todas as formas possíveis, vc é literalmente a minha luz nos dias bons e principalmente nos dias difíceis.
+
+vc é a melhor coisa q já aconteceu na minha vida, e eu te amo, como sempre amei, talvez desde o primeiro momento q te vi de outra forma, mesmo sem perceber, e eu penso em vc o tempo todo, pois são tantas memórias, tantas histórias, tantos momentos q ficaram marcados em mim, e eu so tenho a te agradecer por tudo isso.
+
+E independente do q aconteça, se eu tô com vc, é pq sempre vou estar, pq eu me sinto seguro com vc.
+
+E enquanto muita gente diz q o amor muda com o tempo, q diminui, q esfria, talvez isso aconteça, mas oq ocorreu cmg tem cerca de 365 dias, e oq aconteceu é q todos os dias sem exceção, eu te amo mais, cada dia mais.
+
+Um ano pode parecer pouco pra quem olha de fora, mas pra mim, foi o suficiente pra ter certeza absoluta de q eu quero passar todos os dias da minha vida com vc, cada sorriso seu, cada gesto, cada detalhe, tudo em vc faz minha vida ser melhor.
+
+Dividir a vida com vc é a melhor coisa q existe, é leve, é bonito, é verdadeiro, é tudo q eu sempre quis sem nem saber.
+
+365 dias ao seu lado e vc se tornou sem dúvida nenhuma, o capítulo mais lindo da minha história.
+
+E pra quem dizia q a gente não ia durar nem 1 mês (acho q vc sabe qm é KSKDKSKSKSK) hoje a gente completa 1 ano, e não só isso, a gente tá mais forte, mais unido, mais apaixonado, e com mais compreensão, e se depender de mim isso é só o começo, pq dps vem mais anos, e anos juntos. 
+
+Saiba QUE EEUUUU TTTTEEEEE AAMOOOOO MEEUUU AAMORR, MINHAA PRINCESAAAAAAAAAAAAAAA, MINHAAA GATINHAAA, MINHAAA RAINHAAA, MEUUU DOCINHOOO, MINHAAAA BB, AA RAZÃOO DAA MINHAA VIDAAA🥺💗💗 E EUUU SEMPRE TEE AMAREII PRAA SEMPRE 💙💗
+>>>
